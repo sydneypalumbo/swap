@@ -1,0 +1,25 @@
+.promoContainer {
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    display: inline-block;
+    outline: 2px solid #ffffff;
+    text-align: center;
+    position: relative;
+    font-size: 35px;
+}
+
+.promoImageContainer {
+    background-color: #ffffff;
+    opacity: 0.5;
+}
+
+.promoImage {
+
+}
+
+.promoText {
+
+}

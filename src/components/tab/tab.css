@@ -1,0 +1,21 @@
+.tabContainer {
+    width: 20%;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #ffffff;
+    display: inline-block;
+    outline: 1px solid #ffffff;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+}
+
+.tab {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
