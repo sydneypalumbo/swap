@@ -1,8 +1,12 @@
 module.exports = {
-    entry: "./src/client.js",
+    entry: {
+        "shop": './src/shop.js',
+        "post": './src/post.js',
+        "home": './src/home.js'
+    },
     output: {
-        path: './public',
-        filename: 'bundle.js'
+        path: './swap+sell',
+        filename: '[name].bundle.js'
     },
     module: {
         loaders: [

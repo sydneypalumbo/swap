@@ -1,25 +1,40 @@
 .promoContainer {
     width: 50%;
     height: 50%;
-    margin: 0;
-    padding: 0;
-    color: #000000;
-    display: inline-block;
     outline: 2px solid #ffffff;
+    margin: 1px 0 0 0;
+    padding: 0;
+    color: #ffffff;
+    display: inline-block;
     text-align: center;
     position: relative;
     font-size: 35px;
+    font-family: Century Gothic, sans-serif;
+}
+.promoContainer:hover{
+    color: #000000;
+    text-transform: uppercase;
 }
 
 .promoImageContainer {
-    background-color: #ffffff;
-    opacity: 0.5;
+    padding-top: 10px;
+    background-color: #000000;
+}
+.promoImageContainer:hover {
+    background-color: #999999;
 }
 
 .promoImage {
-
+    max-height: 100%;
+    max-width: 100%;
+    opacity: 0.4;
 }
 
 .promoText {
-
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
